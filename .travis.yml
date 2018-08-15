@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "7"
+script:
+  - echo "Start Deploy!"
+install:
+  - npm install -g firebase-tools
+after_success:
+  - firebase deploy --project certnet-mainwebsite --token $FIREBASE_TOKEN
