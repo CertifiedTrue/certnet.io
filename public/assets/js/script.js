@@ -1,4 +1,4 @@
-/* Template	:	ICO Crypto v1.3.2 */
+/* Template	:	ICO Crypto v1.3.3 */
 (function($){
 	'use strict';
 	var $win = $(window), $body_m = $('body'), $navbar = $('.navbar');
@@ -563,5 +563,6 @@
 		// Stop here.
       );
 	}
+	
 	
 })(jQuery);
